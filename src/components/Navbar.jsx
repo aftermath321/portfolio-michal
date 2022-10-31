@@ -51,11 +51,11 @@ const Navbar = () => {
             {/* Side menu */}
             <div className='hidden fixed lg:flex left-0 top-[35%]'>
                 <ul>
-                    <li className='w-[160px] h-[50px] bg-white items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'>
-                        <a href='/' className='flex justify-between items-center w-full '> Github <BsGithub size={30} /> </a></li>
-                    <li className='w-[160px] h-[50px] bg-white items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='/' className='flex justify-between items-center w-full '> Email <SiGmail size={30} /> </a></li>
-                    <li className='w-[160px] h-[50px] bg-white items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='/' className='flex justify-between items-center w-full '>  LinkedIn <BsLinkedin size={30} /> </a></li>
-                    <li className='w-[160px] h-[50px] bg-white items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='/' className='flex justify-between items-center w-full '> Resume <MdContactPage size={30} /> </a></li>
+                    <li className='w-[160px] h-[50px] bg-white text-gray-400 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'>
+                        <a href='https://github.com/aftermath321' className='flex justify-between items-center w-full '> Github <BsGithub size={40} /> </a></li>
+                    <li className='w-[160px] h-[50px] bg-white text-red-600 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='mailto:' className='flex justify-between items-center w-full '> Email <SiGmail size={40} /> </a></li>
+                    <li className='w-[160px] h-[50px] bg-white text-blue-500 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='https://www.linkedin.com/in/micha%C5%82-kie%C5%82basa-48a28116a/' className='flex justify-between items-center w-full '>  LinkedIn <BsLinkedin size={40} /> </a></li>
+                    <li className='w-[160px] h-[50px] bg-white text items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='/' className='flex justify-between items-center w-full '> Resume <MdContactPage size={45} /> </a></li>
                 </ul>
 
             </div>
