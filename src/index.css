@@ -7,8 +7,8 @@
 @layer base {
   body {
    @apply font-[Mukta];
-   @apply  bg-gray-800;
-   @apply text-orange-500;
+   @apply  bg-black;
+   @apply text-white;
 }
 li {
   @apply px-4

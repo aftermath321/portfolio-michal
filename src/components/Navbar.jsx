@@ -11,12 +11,12 @@ const Navbar = () => {
     const [mobile, setMobile] = useState(false);
 
     const handleClick = () => setMobile(!mobile)
-    
-    return (
-        <div className='fixed w-full flex h-[80px] justify-between items-center px-4'>
-                <div>
 
-                </div>
+    return (
+        <div className='fixed w-full flex h-[40px] justify-between items-center px-4 bg-black'>
+            <div>
+
+            </div>
 
             {/* Top right menu */}
             <div>
@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className='z-10 md:hidden text-2xl py-4 absolute right-10' onClick={handleClick}>
                 {!mobile ? <GiHamburgerMenu /> : <FaTimes />}
             </div>
-            
+
 
             {/* Mobile menu */}
             <div className={!mobile ? 'hidden' : 'absolute justify-center items-center flex flex-col top-0 left-0 h-screen w-full'}>
@@ -49,13 +49,13 @@ const Navbar = () => {
             </div>
 
             {/* Side menu */}
-            <div className='hidden fixed lg:flex left-0 top-[35%]'>
+            <div className='hidden fixed bg-white lg:flex left-0 top-[35%]'>
                 <ul>
-                    <li className='w-[160px] h-[50px] bg-white text-gray-400 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'>
-                        <a href='https://github.com/aftermath321' className='flex justify-between items-center w-full '> Github <BsGithub size={40} /> </a></li>
-                    <li className='w-[160px] h-[50px] bg-white text-red-600 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='mailto:' className='flex justify-between items-center w-full '> Email <SiGmail size={40} /> </a></li>
-                    <li className='w-[160px] h-[50px] bg-white text-blue-500 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='https://www.linkedin.com/in/micha%C5%82-kie%C5%82basa-48a28116a/' className='flex justify-between items-center w-full '>  LinkedIn <BsLinkedin size={40} /> </a></li>
-                    <li className='w-[160px] h-[50px] bg-white text items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a href='/' className='flex justify-between items-center w-full '> Resume <MdContactPage size={45} /> </a></li>
+                    <li className='w-[160px] h-[50px] text-gray-400 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'>
+                        <a target='_blank' href='https://github.com/aftermath321' className='flex justify-between items-center w-full '> Github <BsGithub size={40} /> </a></li>
+                    <li className='w-[160px] h-[50px] text-red-600 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a target='_blank' href='mailto:' className='flex justify-between items-center w-full '> Email <SiGmail size={40} /> </a></li>
+                    <li className='w-[160px] h-[50px] text-blue-500 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a target='_blank' href='https://www.linkedin.com/in/micha%C5%82-kie%C5%82basa-48a28116a/' className='flex justify-between items-center w-full '>  LinkedIn <BsLinkedin size={40} /> </a></li>
+                    <li className='w-[160px] h-[50px] text-black items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'><a target='_blank' href='/' className='flex justify-between items-center w-full '> Resume <MdContactPage size={45} /> </a></li>
                 </ul>
 
             </div>
