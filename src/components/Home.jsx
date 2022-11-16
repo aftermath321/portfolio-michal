@@ -3,7 +3,7 @@ import { HiArrowUp } from 'react-icons/hi'
 
 const Home = () => {
     return (
-        <div className='mx-auto w-full h-screen flex justify-center items-center'>
+        <div className='mx-auto w-full h-screen flex justify-center items-center' name='home'>
             <div className='justify-center px-8 text-center'>
                 <p>Hi, my name is</p>
                 <h1 className='text-5xl'>Michał Kiełbasa.</h1>
@@ -12,14 +12,13 @@ const Home = () => {
 
                     <button className='flex group border-white border-4 px-8 py-2 justify-center items-center'>
                         Show work!
-
                         <HiArrowUp size={40} className='group-hover:rotate-180 duration-500' />
-
                     </button>
+                    </div>
 
                 </div>
             </div>
-        </div>
+    
     )
 }
 

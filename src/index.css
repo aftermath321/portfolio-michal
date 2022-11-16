@@ -14,3 +14,20 @@ li {
   @apply px-4
 }
 }
+
+
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(7, 7, 7, 0.295),
+        hsla(0, 0%, 47%, 0.39)   
+    )!important;
+}

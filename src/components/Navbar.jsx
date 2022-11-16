@@ -4,6 +4,9 @@ import { FaTimes } from 'react-icons/fa'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { SiGmail } from 'react-icons/si'
 import { MdContactPage } from 'react-icons/md'
+import * as Scroll from 'react-scroll';
+import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 
 
@@ -21,12 +24,12 @@ const Navbar = () => {
             {/* Top right menu */}
             <div>
                 <nav>
-                    <ul className='hidden md:flex'>
-                        <li className='text-xl font-bold'>Home</li>
-                        <li className='text-xl font-bold'>About</li>
-                        <li className='text-xl font-bold'>Skills</li>
-                        <li className='text-xl font-bold'>Experience</li>
-                        <li className='text-xl font-bold'>Contact</li>
+                    <ul className='hidden md:flex cursor-pointer'>
+                        <Link to='home' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>Home</li></Link>
+                        <Link to='about' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>About</li></Link>
+                        <Link to='skills' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>Skills</li></Link>
+                        <Link to='work' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>Work</li></Link>
+                        <Link to='contact' smooth='true' duration={300} onClick={handleClick}> <li className='text-xl font-bold'>Contact</li></Link>
                     </ul>
                 </nav>
             </div>
@@ -38,13 +41,13 @@ const Navbar = () => {
 
 
             {/* Mobile menu */}
-            <div className={!mobile ? 'hidden' : 'absolute justify-center items-center flex flex-col top-0 left-0 h-screen w-full'}>
+            <div className={!mobile ? 'hidden' : 'bg-black absolute justify-center items-center flex flex-col top-0 left-0 h-screen w-full'}>
                 <ul >
-                    <li onClick={handleClick} className='py-4 text-2xl font-bold'>Home</li>
-                    <li onClick={handleClick} className='py-4 text-2xl font-bold'>About</li>
-                    <li onClick={handleClick} className='py-4 text-2xl font-bold'>Skills</li>
-                    <li onClick={handleClick} className='py-4 text-2xl font-bold'>Experience</li>
-                    <li onClick={handleClick} className='py-4 text-2xl font-bold'>Contact</li>
+                    <Link to='home' smooth='true' duration={300}><li onClick={handleClick} className='py-4 text-2xl font-bold'>Home</li></Link>
+                    <Link to='about' smooth='true' duration={300}><li onClick={handleClick} className='py-4 text-2xl font-bold'>About</li></Link>
+                    <Link to='skills' smooth='true' duration={300}><li onClick={handleClick} className='py-4 text-2xl font-bold'>Skills</li></Link>
+                    <Link to='work' smooth='true' duration={300}><li onClick={handleClick} className='py-4 text-2xl font-bold'>Work</li></Link>
+                    <Link to='contact' smooth='true' duration={300}><li onClick={handleClick} className='py-4 text-2xl font-bold'>Contact</li></Link>
                 </ul>
             </div>
 
