@@ -24,12 +24,12 @@ const Navbar = () => {
             {/* Top right menu */}
             <div>
                 <nav>
-                    <ul className='hidden md:flex cursor-pointer'>
-                        <Link to='home' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>Home</li></Link>
-                        <Link to='about' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>About</li></Link>
-                        <Link to='skills' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>Skills</li></Link>
-                        <Link to='work' smooth='true' duration={300} onClick={handleClick}><li className='text-xl font-bold'>Work</li></Link>
-                        <Link to='contact' smooth='true' duration={300} onClick={handleClick}> <li className='text-xl font-bold'>Contact</li></Link>
+                    <ul className='hidden md:flex cursor-pointer '>
+                        <Link to='home' smooth='true' duration={300} ><li className='text-xl hover:text-[#fb7e14] '>Home</li></Link>
+                        <Link to='about' smooth='true' duration={300} ><li className='text-xl hover:text-[#fb7e14]'>About</li></Link>
+                        <Link to='skills' smooth='true' duration={300} ><li className='text-xl hover:text-[#fb7e14]'>Skills</li></Link>
+                        <Link to='work' smooth='true' duration={300} ><li className='text-xl hover:text-[#fb7e14]'>Work</li></Link>
+                        <Link to='contact' smooth='true' duration={300} > <li className='text-xl hover:text-[#fb7e14]'>Contact</li></Link>
                     </ul>
                 </nav>
             </div>
