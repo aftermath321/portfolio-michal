@@ -8,8 +8,9 @@
 @layer base {
   body {
    @apply font-[Anton];
-   @apply  bg-black;
    @apply text-white;
+   @apply bg-black
+
 }
 li {
   @apply px-4
@@ -18,6 +19,7 @@ li {
   @apply font-[Lobster];
 }
 }
+
 
 
 .content-div {

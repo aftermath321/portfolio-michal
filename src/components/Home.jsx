@@ -12,7 +12,7 @@ const Home = () => {
                 <p>The fullstack Website Developer. Welcome to my page! </p>
                 <div className='flex justify-center pt-16'>
 
-                    <button className='flex group border-white border-4 px-8 py-2 justify-center items-center'>
+                    <button className='flex group border-white border-4 px-8 py-2 justify-center items-center animate-bounce'>
                         Show work!
                         <HiArrowUp size={40} className='group-hover:rotate-180 duration-500' />
                     </button>

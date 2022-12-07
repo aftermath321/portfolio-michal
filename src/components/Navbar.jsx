@@ -24,7 +24,7 @@ const Navbar = () => {
             {/* Top right menu */}
             <div>
                 <nav>
-                    <ul className='hidden md:flex cursor-pointer '>
+                    <ul className='hidden md:flex cursor-pointer sticky'>
                         <Link to='home' smooth='true' duration={300} ><li className='text-xl hover:text-[#fb7e14] '>Home</li></Link>
                         <Link to='about' smooth='true' duration={300} ><li className='text-xl hover:text-[#fb7e14]'>About</li></Link>
                         <Link to='skills' smooth='true' duration={300} ><li className='text-xl hover:text-[#fb7e14]'>Skills</li></Link>

@@ -11,8 +11,8 @@ const About = () => {
 
                     </div>
                     <div className='justify-center items-center'> I am a passionate <span className='text-[#fb7e14]'>Fullstack Website Developer</span> who loves challenges. <br/>I started this whole programming thing in 2020 out of curiosity.
-                        <br />The vast amount of knowledge and a need for "know-how" immediately caught me and never let go.That same year I started <span className='text-[#fb7e14]'>Java Developer Course</span> at CodersLab. Since then I tried different programming languages and
-                        that's how I got to learn <span className='text-[#fb7e14]'>JavaScript</span>, along with <span className='text-[#fb7e14]'>React</span> and <span className='text-[#fb7e14]'>NextJS!</span> </div>
+                        <br />The vast amount of knowledge and a need for "know-how" immediately caught me and never let go. That same year I started <span className='text-[#fb7e14]'>Java Developer Course</span> at CodersLab. Since then I tried different programming languages and
+                        that's how I got to learn <span className='text-[#fb7e14]'>JavaScript</span>, along with <span className='text-[#fb7e14]'>React</span> and <span className='text-[#fb7e14]'>NextJS.</span> </div>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ const Work = () => {
           <div alt='ecommerce photo' style={{ backgroundImage: `url(${Ecommerce})` }}
             className='group container content-div mx-auto rounded-md shadow-sm shadow-white'>
 
-            <div className="opacity-0 hover:opacity-100 w-[250px] flex flex-col pt-8">
+            <div className="opacity-0 hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-white tracking-wider text-center items-center ">
                 E-commerce template</span>
               <div className="pt-8 text-center ">
@@ -37,7 +37,7 @@ const Work = () => {
           <div alt='ecommerce photo' style={{ backgroundImage: `url(${Ecommerce})` }}
             className='group container content-div mx-auto rounded-md shadow-md shadow-white'>
 
-            <div className="opacity-0 group-hover:opacity-100 w-[250px] flex flex-col pt-8">
+            <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-white tracking-wider text-center items-center ">
                 E-commerce template              </span>
               <div className="pt-8 text-center ">
@@ -58,7 +58,7 @@ const Work = () => {
           <div  alt='ecommerce photo' style={{ backgroundImage: `url(${Ecommerce})` }}
             className='group container content-div mx-auto rounded-md shadow-md shadow-white'>
 
-            <div className="opacity-0 group-hover:opacity-100 w-[250px] flex flex-col pt-8">
+            <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-white tracking-wider text-center items-center ">
                 E-commerce template              </span>
               <div className="pt-8 text-center ">
