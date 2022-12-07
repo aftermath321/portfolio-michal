@@ -6,7 +6,6 @@ import { SiGmail } from 'react-icons/si'
 import { MdContactPage } from 'react-icons/md'
 import * as Scroll from 'react-scroll';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import  pdf from '../assets/CV.pdf'
 
 
 
@@ -65,7 +64,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[50px] text-blue-500 items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'>
                         <a target='_blank' href='https://www.linkedin.com/in/micha%C5%82-kie%C5%82basa-48a28116a/' className='flex justify-between items-center w-full '>  LinkedIn <BsLinkedin size={40} /> </a></li>
                     <li className='w-[160px] h-[50px] text-black items-center justify-center flex ml-[-100px] duration-300 hover:ml-[-10px]'>
-                        <a target='_blank' href={ pdf } className='flex justify-between items-center w-full '> Resume <MdContactPage size={45} /> </a></li>
+                        <a target='_blank' href='https://drive.google.com/file/d/1pYKPiGWlgcFGu3x9dqDLhd9gOUl92LFJ/view?usp=sharing' className='flex justify-between items-center w-full '> Resume <MdContactPage size={45} /> </a></li>
                 </ul>
 
             </div>

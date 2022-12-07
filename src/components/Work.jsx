@@ -19,7 +19,7 @@ const Work = () => {
 
             <div className="opacity-0 hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-white tracking-wider text-center items-center ">
-                E-commerce template</span>
+                E-commerce Placeholder</span>
               <div className="pt-8 text-center ">
 
 
@@ -39,7 +39,7 @@ const Work = () => {
 
             <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-white tracking-wider text-center items-center ">
-                E-commerce template              </span>
+                E-commerce Placeholder              </span>
               <div className="pt-8 text-center ">
 
 
@@ -60,7 +60,7 @@ const Work = () => {
 
             <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-white tracking-wider text-center items-center ">
-                E-commerce template              </span>
+                E-commerce Placeholder              </span>
               <div className="pt-8 text-center ">
 
 
