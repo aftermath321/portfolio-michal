@@ -5,18 +5,17 @@ import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
-
+import 'aos/dist/aos.css';
 
 function App() {
   return (
     <div>
-            <Navbar />
-            <Home />
-            <About />
-            <Skills />
-            <Work />
-            <Contact />
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
     </div>
   );
 }

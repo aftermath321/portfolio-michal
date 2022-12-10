@@ -7,32 +7,29 @@
 
 @layer base {
   body {
-   @apply font-[Anton];
-   @apply text-white;
-   @apply bg-black
-
+    @apply font-[Anton];
+    @apply text-white;
+    @apply bg-black;
+  }
+  li {
+    @apply px-4;
+  }
+  #name {
+    @apply font-[Lobster];
+  }
 }
-li {
-  @apply px-4
-}
-#name {
-  @apply font-[Lobster];
-}
-}
-
-
 
 .content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
 }
 
 .content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(7, 7, 7, 0.295),
-        hsla(0, 0%, 47%, 0.39)   
-    )!important;
+  background-image: linear-gradient(
+    to right,
+    rgba(7, 7, 7, 0.295),
+    hsla(0, 0%, 47%, 0.39)
+  ) !important;
 }
