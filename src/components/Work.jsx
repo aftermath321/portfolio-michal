@@ -8,7 +8,6 @@ const Work = () => {
       <div className=" w-full mx-auto flex flex-col justify-center items-center p-4 py-8">
         <h2 className="text-5xl ">My work!</h2>
         <span className="py-8">Here you can find some of my latest projects</span>
-
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div
             alt="ecommerce photo"
