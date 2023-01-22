@@ -27,8 +27,7 @@ const Navbar = () => {
           !mobile
             ? 'hidden'
             : 'bg-black absolute justify-center items-center flex flex-col top-0 left-0 h-[110vh] w-full'
-        }
-      >
+        }>
         <ul>
           <Link to="home" smooth="true" duration={300}>
             <li onClick={handleClick} className="py-4 text-2xl font-bold">
@@ -88,8 +87,7 @@ const Navbar = () => {
             <a
               target="_blank"
               href="https://github.com/aftermath321"
-              className="flex justify-between items-center w-full "
-            >
+              className="flex justify-between items-center w-full ">
               Github <BsGithub size={40} />
             </a>
           </li>
@@ -102,8 +100,7 @@ const Navbar = () => {
             <a
               target="_blank"
               href="https://www.linkedin.com/in/micha%C5%82-kie%C5%82basa-48a28116a/"
-              className="flex justify-between items-center w-full "
-            >
+              className="flex justify-between items-center w-full ">
               LinkedIn <BsLinkedin size={40} />
             </a>
           </li>
@@ -111,8 +108,7 @@ const Navbar = () => {
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1pYKPiGWlgcFGu3x9dqDLhd9gOUl92LFJ/view?usp=sharing"
-              className="flex justify-between items-center w-full "
-            >
+              className="flex justify-between items-center w-full">
               Resume <MdContactPage size={45} />
             </a>
           </li>
