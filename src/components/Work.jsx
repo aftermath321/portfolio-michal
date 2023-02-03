@@ -1,6 +1,7 @@
 import React from 'react';
 import Ecommerce from '../assets/ecommerce.png';
 import Weather from '../assets/Kaique-Rocha-weather-photo.jpg';
+import Blog from '../assets/Blog.jpg';
 
 const Work = () => {
   return (
@@ -33,18 +34,22 @@ const Work = () => {
           </div>
           <div
             alt="ecommerce photo"
-            style={{ backgroundImage: `url(${Ecommerce})` }}
+            style={{ backgroundImage: `url(${Blog})` }}
             className="group container content-div mx-auto rounded-md shadow-md shadow-white">
             <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-white tracking-wider text-center items-center ">
-                E-commerce Placeholder
+                Blog Mock-up
               </span>
               <div className="pt-8 text-center ">
                 <button className="rounded-lg m-4 font-bold text-2xl bg-white text-black p-2">
-                  Demo
+                  <a href="https://blog-mockup.vercel.app/" target="_blank">
+                    Demo
+                  </a>
                 </button>
                 <button className="rounded-lg m-4 font-bold text-2xl bg-white text-black p-2">
-                  Code
+                  <a href="https://github.com/aftermath321/blog_mockup" target="_blank">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
