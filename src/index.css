@@ -9,7 +9,7 @@
   body {
     @apply font-[Anton];
     @apply text-white;
-    @apply bg-black;
+    @apply bg-[#131313];
   }
   li {
     @apply px-4;

@@ -13,7 +13,7 @@ const Navbar = () => {
   const handleClick = () => setMobile(!mobile);
 
   return (
-    <div className="fixed w-full z-10 flex h-[40px] justify-between items-center px-4 bg-black">
+    <div className="fixed w-full z-10 flex h-[40px] justify-between items-center px-4 bg-[#131313]">
       <div></div>
 
       {/* Mobile menu icon */}
@@ -26,7 +26,7 @@ const Navbar = () => {
         className={
           !mobile
             ? 'hidden'
-            : 'bg-black absolute justify-center items-center flex flex-col top-0 left-0 h-[110vh] w-full'
+            : 'bg-[#131313] absolute justify-center items-center flex flex-col top-0 left-0 h-[110vh] w-full'
         }>
         <ul>
           <Link to="home" smooth="true" duration={300}>
