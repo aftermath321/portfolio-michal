@@ -9,13 +9,24 @@
   body {
     @apply font-[Anton];
     @apply text-white;
-    @apply bg-[#131313];
+    @apply bg-gradient-to-tr from-[#131313] to-[#272521];
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   li {
     @apply px-4;
   }
   #name {
     @apply font-[Lobster];
+  }
+}
+
+@layer components {
+  .Ngradient {
+    @apply bg-gradient-to-tl from-[#fb7e14] to-[#fbbd14];
+  }
+  .Hgradient {
+    @apply bg-gradient-to-tl from-[#fbbd14] to-[#fb7e14];
   }
 }
 
