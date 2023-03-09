@@ -37,29 +37,87 @@ const Navbar = () => {
             : 'bg-[#131313] absolute justify-center items-center flex flex-col top-0 left-0 h-[110vh] w-full'
         }
       >
+        <div className="fixed  w-[350px] bottom-[20] z-50 flex top-[20%] ">
+          <ul className="flex flex-row gap-4">
+            <li className="h-[50px] bg-[#ffffff] text-gray-400 items-center justify-center flex rounded-[30px] ">
+              <a
+                target="_blank"
+                href="https://github.com/aftermath321"
+                className="flex justify-between items-center w-full "
+              >
+                <BsGithub size={40} />
+              </a>
+            </li>
+            <li className="h-[50px] bg-[#ffffff] text-red-600 items-center justify-center flex rounded-[30px]">
+              <a
+                target="_blank"
+                href="mailto:michal.kielbasa1994@gmail.com"
+                className="flex justify-between items-center w-full"
+                rel="noreferrer"
+              >
+                <SiGmail size={40} />
+              </a>
+            </li>
+            <li className="h-[50px] bg-[#ffffff] text-blue-500 items-center justify-center flex rounded-[30px]">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/micha%C5%82-kie%C5%82basa-48a28116a/"
+                className="flex justify-between items-center w-full"
+                rel="noreferrer"
+              >
+                <BsLinkedin size={40} />
+              </a>
+            </li>
+            <li className="h-[50px] bg-[#ffffff] text-[#131313] items-center justify-center flex rounded-[30px]">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1pYKPiGWlgcFGu3x9dqDLhd9gOUl92LFJ/view?usp=sharing"
+                className="flex justify-between items-center w-full"
+                rel="noreferrer"
+              >
+                <MdContactPage size={45} />
+              </a>
+            </li>
+          </ul>
+        </div>
         <ul>
           <Link to="home" smooth="true" duration={300}>
-            <li onClick={handleClick} className="py-4 text-2xl font-bold">
+            <li
+              onClick={handleClick}
+              className="py-4 text-2xl font-bold hover:text-[#fb7e14]"
+            >
               Home
             </li>
           </Link>
           <Link to="about" smooth="true" duration={300}>
-            <li onClick={handleClick} className="py-4 text-2xl font-bold">
+            <li
+              onClick={handleClick}
+              className="py-4 text-2xl font-bold hover:text-[#fb7e14]"
+            >
               About
             </li>
           </Link>
           <Link to="skills" smooth="true" duration={300}>
-            <li onClick={handleClick} className="py-4 text-2xl font-bold">
+            <li
+              onClick={handleClick}
+              className="py-4 text-2xl font-bold hover:text-[#fb7e14]"
+            >
               Skills
             </li>
           </Link>
           <Link to="work" smooth="true" duration={300}>
-            <li onClick={handleClick} className="py-4 text-2xl font-bold">
+            <li
+              onClick={handleClick}
+              className="py-4 text-2xl font-bold hover:text-[#fb7e14]"
+            >
               Work
             </li>
           </Link>
           <Link to="contact" smooth="true" duration={300}>
-            <li onClick={handleClick} className="py-4 text-2xl font-bold">
+            <li
+              onClick={handleClick}
+              className="py-4 text-2xl font-bold hover:text-[#fb7e14]"
+            >
               Contact
             </li>
           </Link>

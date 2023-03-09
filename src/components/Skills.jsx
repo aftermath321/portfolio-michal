@@ -71,7 +71,7 @@ const Skills = () => {
               className="group-hover:text-[#fb7e14] ml-4 scale-0 
               group-hover:scale-100 duration-300 text-4xl  flex text-bold justify-center items-center "
             >
-              JavaScript
+              JS/TS
             </div>
           </div>
 

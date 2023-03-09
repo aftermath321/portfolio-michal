@@ -7,15 +7,16 @@ const About = () => {
         <h2 className="text-4xl py-6">About</h2>
         <div className="grid grid-cols-2 w-full max-w-[1000px] gap-8 ">
           <div>
-            <p className=" text-2xl">
-              Hi, I'm{' '}
-              <span className="text-4xl text-bold text-[#fb7e14]">Michał!</span>
+            <p className="text-3xl">
+              Hi, <br />
+              <span className="text-xl">I'm</span>{' '}
+              <span className="text-5xl text-bold text-[#fb7e14]">Michał!</span>
             </p>
             <p className="text-2xl  pt-2 pl-16">Pleased to meet you!</p>
           </div>
           <div className="justify-center items-center">
             I am a passionate{' '}
-            <span className="text-[#fb7e14]">Frontend Website Developer </span>
+            <span className="text-[#fb7e14]">FrontEnd Developer </span>
             who loves challenges. <br />I started this whole programming thing
             in 2020 out of curiosity.
             <br />

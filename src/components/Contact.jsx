@@ -3,13 +3,13 @@ import React from 'react';
 const Contact = () => {
   return (
     <div
-      className="mx-auto flex justify-center items-center h-screen w-full p-4 text-[#131313] tracking-wider"
+      className="mx-auto flex justify-center items-center h-screen w-full text-[#131313] tracking-wider"
       name="contact"
     >
       <form
         method="POST"
         action="https://getform.io/f/dc4e4d8a-dc96-4d03-9948-0b991af7de68"
-        className="flex flex-col max-w-[600px] w-full"
+        className="h-[100%] flex flex-col max-w-[600px] w-full"
       >
         <div className="py-4 text-center justify-center items-center">
           <h2 className="text-5xl py-4 text-[#ffffff] text-bold">
@@ -44,11 +44,11 @@ const Contact = () => {
           rows={10}
           placeholder="Message"
           name="message"
-          className="p-2 m-4 text-[#131313]"
+          className="p-2 m-4 text-[#131313] h-auto"
         />
         <button
           type="submit"
-          className="Ngradient active:Hgradient w-[30%] self-center"
+          className="Ngradient active:Hgradient w-[30%] rounded-xl self-center active:translate-y-1 duration-200"
         >
           Send!
         </button>
