@@ -18,12 +18,12 @@ const Navbar = () => {
   const handleClick = () => setMobile(!mobile);
 
   return (
-    <div className="fixed w-full z-10 flex h-[40px] justify-between items-center px-4 bg-[#131313]">
+    <div className="fixed w-full z-10 flex h-[50px] justify-between items-center px-4 bg-[#131313]">
       <div></div>
 
       {/* Mobile menu icon */}
       <div
-        className="z-10 md:hidden text-2xl py-4 top-0 absolute right-10"
+        className="z-10 md:hidden text-2xl py-4 top-0 absolute right-10 self-center"
         onClick={handleClick}
       >
         {!mobile ? <GiHamburgerMenu /> : <FaTimes />}

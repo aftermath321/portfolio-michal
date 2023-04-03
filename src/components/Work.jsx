@@ -1,8 +1,7 @@
 import React from 'react';
-import Ecommerce from '../assets/ecommerce.png';
 import Weather from '../assets/Kaique-Rocha-weather-photo.jpg';
 import Blog from '../assets/Blog.jpg';
-import Photoblog from '../assets/photoblog.jpeg';
+import Photoblog from '../assets/Photoblog.jpg';
 
 const Work = () => {
   return (
