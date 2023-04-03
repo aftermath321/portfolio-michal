@@ -2,6 +2,7 @@ import React from 'react';
 import Ecommerce from '../assets/ecommerce.png';
 import Weather from '../assets/Kaique-Rocha-weather-photo.jpg';
 import Blog from '../assets/Blog.jpg';
+import Photoblog from '../assets/photoblog.jpeg';
 
 const Work = () => {
   return (
@@ -77,19 +78,31 @@ const Work = () => {
 
           <div
             alt="ecommerce photo"
-            style={{ backgroundImage: `url(${Ecommerce})` }}
+            style={{ backgroundImage: `url(${Photoblog})` }}
             className="group container content-div mx-auto rounded-md shadow-lg shadow-[#131313]"
           >
             <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
               <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
-                E-commerce Placeholder
+                Photo-Blog
               </span>
               <div className="pt-8 text-center ">
                 <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  Demo
+                  <a
+                    href="https://photo-blog-beta.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Demo
+                  </a>
                 </button>
                 <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  Code
+                  <a
+                    href="https://github.com/aftermath321/photo-blog"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
