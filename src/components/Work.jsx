@@ -13,96 +13,106 @@ const Work = () => {
         </span>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div
-            alt="ecommerce photo"
+            alt="weather photo"
             style={{ backgroundImage: `url(${Weather})` }}
-            className="group container content-div mx-auto rounded-md shadow-lg shadow-[#131313]"
+            className="group container bg-no-repeat
+            bg-center bg-cover mx-auto rounded-md shadow-2xl shadow-[#131313] border-2 border-white border-solid"
           >
-            <div className="opacity-0 hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
-              <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
-                Simple Weather App
-              </span>
-              <div className="pt-8 text-center ">
-                <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  <a
-                    href="https://weather-app-ua3y.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Demo
-                  </a>
-                </button>
-                <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  <a
-                    href="https://github.com/aftermath321/weather-app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Code
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            alt="ecommerce photo"
-            style={{ backgroundImage: `url(${Blog})` }}
-            className="group container content-div mx-auto rounded-md shadow-lg shadow-[#131313]"
-          >
-            <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
-              <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
-                Blog Mock-up
-              </span>
-              <div className="pt-8 text-center ">
-                <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  <a
-                    href="https://blog-mockup.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Demo
-                  </a>
-                </button>
-                <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  <a
-                    href="https://github.com/aftermath321/blog_mockup"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Code
-                  </a>
-                </button>
+            <div className="bg-[#2b2b2bd2] group-active:opacity-100 group-hover:opacity-100 opacity-0 w-100 h-[100%] z-1 group duration-300 ease-in-out">
+              <div className="opacity-0 group-active:opacity-100 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8 z-2">
+                <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
+                  Simple Weather App
+                </span>
+                <div className="pt-8 text-center ">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                    <a
+                      href="https://weather-app-ua3y.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </button>
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                    <a
+                      href="https://github.com/aftermath321/weather-app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Code
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
 
           <div
-            alt="ecommerce photo"
-            style={{ backgroundImage: `url(${Photoblog})` }}
-            className="group container content-div mx-auto rounded-md shadow-lg shadow-[#131313]"
+            alt="blog photo"
+            style={{ backgroundImage: `url(${Blog})` }}
+            className="group container bg-no-repeat
+            bg-center bg-cover mx-auto rounded-md shadow-2xl shadow-[#131313] border-2 border-white border-solid"
           >
-            <div className="opacity-0 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8">
-              <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
-                Photo-Blog
-              </span>
-              <div className="pt-8 text-center ">
-                <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  <a
-                    href="https://photo-blog-beta.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Demo
-                  </a>
-                </button>
-                <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
-                  <a
-                    href="https://github.com/aftermath321/photo-blog"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Code
-                  </a>
-                </button>
+            <div className="bg-[#2b2b2bd2] group-active:opacity-100 group-hover:opacity-100 opacity-0 w-100 h-[100%] z-1 group duration-300 ease-in-out">
+              <div className="opacity-0 group-active:opacity-100 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8 z-2">
+                <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
+                  Blog Mock-up
+                </span>
+                <div className="pt-8 text-center ">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                    <a
+                      href="https://blog-mockup.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </button>
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                    <a
+                      href="https://github.com/aftermath321/blog_mockup"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Code
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            alt="photoblog photo"
+            style={{ backgroundImage: `url(${Photoblog})` }}
+            className="group container bg-no-repeat
+            bg-center bg-cover mx-auto rounded-md shadow-2xl shadow-[#131313] border-2 border-white border-solid"
+          >
+            <div className="bg-[#2b2b2bd2] group-active:opacity-100 group-hover:opacity-100 opacity-0 w-100 h-[100%] z-1 group duration-300 ease-in-out">
+              <div className="opacity-0 group-active:opacity-100 group-hover:opacity-100 duration-300 w-[250px] flex flex-col pt-8 z-2">
+                <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
+                  Photo-Blog
+                </span>
+                <div className="pt-8 text-center ">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                    <a
+                      href="https://photo-blog-beta.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </button>
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                    <a
+                      href="https://github.com/aftermath321/photo-blog"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Code
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
