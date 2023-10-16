@@ -23,8 +23,11 @@ const Work = () => {
                 <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
                   Simple Weather App
                 </span>
+                <span className="text-md text-[#ffffff] tracking-wider text-center items-center ">
+                  (TypeScript + Next.JS + Tailwind)
+                </span>
                 <div className="pt-8 text-center ">
-                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                  <button className="rounded-md m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2 hover:scale-110 duration-300">
                     <a
                       href="https://weather-app-ua3y.vercel.app/"
                       target="_blank"
@@ -33,7 +36,7 @@ const Work = () => {
                       Demo
                     </a>
                   </button>
-                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2 hover:scale-110 duration-300">
                     <a
                       href="https://github.com/aftermath321/weather-app"
                       target="_blank"
@@ -58,8 +61,11 @@ const Work = () => {
                 <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
                   Blog Mock-up
                 </span>
+                <span className="text-lg text-[#ffffff] tracking-wider text-center items-center ">
+                  (Next.JS + CSS3)
+                </span>
                 <div className="pt-8 text-center ">
-                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2 hover:scale-110 duration-300">
                     <a
                       href="https://blog-mockup.vercel.app/"
                       target="_blank"
@@ -68,7 +74,7 @@ const Work = () => {
                       Demo
                     </a>
                   </button>
-                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2 hover:scale-110 duration-300">
                     <a
                       href="https://github.com/aftermath321/blog_mockup"
                       target="_blank"
@@ -93,8 +99,11 @@ const Work = () => {
                 <span className="text-2xl font-bold text-[#ffffff] tracking-wider text-center items-center ">
                   Photo-Blog
                 </span>
+                <span className="text-md text-[#ffffff] tracking-wider text-center items-center ">
+                  (TypeScript + Next.JS + TailWind)
+                </span>
                 <div className="pt-8 text-center ">
-                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2 hover:scale-110 duration-300">
                     <a
                       href="https://photo-blog-beta.vercel.app/"
                       target="_blank"
@@ -103,7 +112,7 @@ const Work = () => {
                       Demo
                     </a>
                   </button>
-                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2">
+                  <button className="rounded-lg m-4 font-bold text-2xl bg-[#ffffff] text-[#131313] p-2 hover:scale-110 duration-300">
                     <a
                       href="https://github.com/aftermath321/photo-blog"
                       target="_blank"

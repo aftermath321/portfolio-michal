@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className="justify-center items-center">
             I am a passionate{' '}
-            <span className="text-[#fb7e14]">FrontEnd Developer </span>
+            <span className="text-[#fb7e14]">FullStack Developer </span>
             who loves challenges. <br />I started this whole programming thing
             in 2020 out of curiosity.
             <br />

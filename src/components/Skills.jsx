@@ -8,6 +8,8 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiReact,
+  SiJava,
+  SiSpring,
 } from 'react-icons/si';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -31,7 +33,7 @@ const Skills = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:py-10 ">
           <div data-Aos="fade-right" className="flex-row flex group ">
-            <SiMysql
+            <SiJava
               size={80}
               className="group-hover:text-[#fb7e14] 
               group-hover:-translate-y-6 duration-300"
@@ -41,12 +43,12 @@ const Skills = () => {
               className="group-hover:text-[#fb7e14] ml-4 scale-0 
               group-hover:scale-100 duration-300 text-4xl  flex text-bold justify-center items-center "
             >
-              MySQL
+              Java
             </div>
           </div>
 
           <div data-Aos="fade-right" className="flex-row flex group ">
-            <SiMongodb
+            <SiSpring
               size={80}
               className="group-hover:text-[#fb7e14] group-hover:-translate-y-6 duration-300"
             />
@@ -56,7 +58,7 @@ const Skills = () => {
               group-hover:scale-100 duration-300 text-4xl 
               flex text-bold justify-center items-center "
             >
-              MongoDB
+              Spring
             </div>
           </div>
 
@@ -76,29 +78,16 @@ const Skills = () => {
           </div>
 
           <div data-Aos="fade-right" className="flex-row flex group">
-            <SiCss3
+            <SiReact
               size={80}
               className="group-hover:text-[#fb7e14] group-hover:-translate-y-6 duration-300"
             />
             <div
               data-Aos="fade-right"
-              className="group-hover:text-[#fb7e14] ml-4 scale-0 group-hover:scale-100 duration-300 text-4xl  flex text-bold justify-center items-center"
-            >
-              CSS 3
-            </div>
-          </div>
-
-          <div data-Aos="fade-right" className="flex-row flex group ">
-            <SiHtml5
-              size={80}
-              className="group-hover:text-[#fb7e14] group-hover:translate-y-6 duration-300"
-            />
-            <div
-              data-Aos="fade-right"
               className="group-hover:text-[#fb7e14] ml-4 scale-0 group-hover:scale-100 
-              duration-300 text-4xl  flex text-bold justify-center items-center"
+              duration-300 text-4xl  flex text-bold justify-center items-center "
             >
-              HTML 5
+              ReactJS
             </div>
           </div>
 
@@ -117,6 +106,33 @@ const Skills = () => {
           </div>
 
           <div data-Aos="fade-right" className="flex-row flex group ">
+            <SiMysql
+              size={80}
+              className="group-hover:text-[#fb7e14] group-hover:translate-y-6 duration-300"
+            />
+            <div
+              data-Aos="fade-right"
+              className="group-hover:text-[#fb7e14] ml-4 scale-0 group-hover:scale-100 
+              duration-300 text-4xl  flex text-bold justify-center items-center "
+            >
+              MySql
+            </div>
+          </div>
+
+          <div data-Aos="fade-right" className="flex-row flex group ">
+            <SiMongodb
+              size={80}
+              className="group-hover:text-[#fb7e14] group-hover:translate-y-6 duration-300"
+            />
+            <div
+              data-Aos="fade-right"
+              className="group-hover:text-[#fb7e14] ml-4 scale-0 group-hover:scale-100 duration-300 text-4xl  flex text-bold justify-center items-center"
+            >
+              MongoDB
+            </div>
+          </div>
+
+          <div data-Aos="fade-right" className="flex-row flex group ">
             <SiNodedotjs
               size={80}
               className="group-hover:text-[#fb7e14] group-hover:translate-y-6 duration-300"
@@ -127,20 +143,6 @@ const Skills = () => {
               duration-300 text-4xl  flex text-bold justify-center items-center "
             >
               NodeJS
-            </div>
-          </div>
-
-          <div data-Aos="fade-right" className="flex-row flex group ">
-            <SiReact
-              size={80}
-              className="group-hover:text-[#fb7e14] group-hover:translate-y-6 duration-300"
-            />
-            <div
-              data-Aos="fade-right"
-              className="group-hover:text-[#fb7e14] ml-4 scale-0 group-hover:scale-100 
-              duration-300 text-4xl  flex text-bold justify-center items-center "
-            >
-              ReactJS
             </div>
           </div>
         </div>
